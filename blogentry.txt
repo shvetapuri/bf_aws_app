@@ -1,0 +1,23 @@
+blog
+                    
+Alexa+Lambda+DynamoDB in Python
+
+Create and Alexa skill that stores data in AWS DynamoDB using Python
+  
+I recently tried to create an Alexa skill that linked to lambda and had data persistence using AWS DynamoDB. I found some good tutorials on the web which I will reference.  I will only go into detailed description of steps if there isn't already a good tutorial that showed me how to do that.
+                
+Setting up Alexa Skill:
+
+Setting up Lambda Function:
+
+Setting up Lambda Handler:
+                         
+Setting up DynamoDB:
+
+Using Python to Read/Write/Modify in DynamoDB:
+
+
+see error while trying to save alexa skill configuration after entering arn of lambda func :  
+Please make sure that "Alexa Skills Kit" is selected for the event source type 
+
+needed to add alexa skills as trigger in lambda function

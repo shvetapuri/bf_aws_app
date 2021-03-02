@@ -1,0 +1,14 @@
+GetLastFeedInfo info
+GetLastFeedInfo information
+GetLastFeedInfo information about last feed
+GetLastFeedInfo give me information about last feed
+GetLastFeedInfo when was the last feed
+StoreLastFeedInfo store info for {breastOne} for {howLongOne}
+StoreLastFeedInfo I fed from {breastOne} for {howLongOne} minutes
+StoreLastFeedInfo {breastOne} for {howLongOne}
+StoreLastFeedInfo I fed from {breastOne} for {howLongOne} minutes and from {breastTwo} for {howLongTwo}
+StoreLastFeedInfo I fed from {breastOne} breast for {howLongOne} minutes and {breastTwo} breast for {howLongTwo} minutes
+StartTiming start breastfeeding timer for {whichBreast}
+StartTiming start timing feed for {whichBreast}
+StopTiming stop timer
+StopTiming stop timing feed

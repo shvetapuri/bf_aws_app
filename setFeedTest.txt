@@ -1,0 +1,60 @@
+storing feed information, which breast did you feed from? 
+"please say right or left"                    
+
+how long did you feed in minutes?
+
+
+
+store : rt or left, length of feed, timestamp
+
+{
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.abc",
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.name1"
+    },
+    "application": {
+      "applicationId": "amzn1.ask.skill.4846a404-b961-47d7-9de3-7a24afa415c4"
+    }
+  },
+  "version": "1.0",
+  "request": {
+    "locale": "en-US",
+    "timestamp": "2016-10-27T21:06:28Z",
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.abc",
+    "intent": {
+        "name": "StoreLastFeedInfo",
+        "slots": {
+            "whichBreast": { 
+                "name": "whichBreast",
+                "value": "right"
+            },
+            "howLong": {
+                "name": "howLong",
+                "value": "20 minutes"
+            }
+        }
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "device": {
+        "supportedInterfaces": {
+          "AudioPlayer": {}
+        }
+      },
+      "application": {
+        "applicationId": "amzn1.ask.skill.4846a404-b961-47d7-9de3-7a24afa415c4"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.name1"
+      }
+    }
+  }
+}
+}
